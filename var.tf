@@ -7,10 +7,6 @@ variable "subnet_cidr" {
   default = "10.0.1.0/24"
 }
 
-variable "ami_id" {
- default = "data.aws_ami.amazon_linux.id" 
-}
-
 variable "instance_type" {
   default = "t3.micro"
 }
